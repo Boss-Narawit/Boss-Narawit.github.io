@@ -5,11 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test 4</title>
-    <style>
-      .center-content {
-        text-align: center;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -17,33 +12,56 @@
       
       <div>
         <h2>Image</h2>
-        <div class="center-content">
           <figure>
-            <picture>
-              <source srcset="julius.webp" type="image/webp">
-              <source srcset="julius.jpg" type="image/jpeg">
-              <img src="julius.jpg" 
-                alt="red rotary phone wallpaper" 
-                width="425" />
-            </picture>
-            <figcaption>
-              <a href="https://unsplash.com/photos/red-rotary-phone-wallpaper-oC66vXsqnc8">
-                Different types of media
-              </a>
-              by
-              <a href="https://unsplash.com/@juliusdrost">Julius Drost</a>
-            </figcaption>
-          </figure>
-        </div>
+          <picture>
+            <source srcset="julius.webp" type="image/webp">
+            <source srcset="julius.jpg" type="image/jpeg">
+            <img src="julius.jpg" 
+              alt="red rotary phone wallpaper" 
+              width="425" />
+          </picture>
+          <figcaption>
+            <a href="https://unsplash.com/photos/red-rotary-phone-wallpaper-oC66vXsqnc8">
+            Different types of media
+            </a>
+            by
+            <a href="https://unsplash.com/@juliusdrost">Julius Drost</a>
+          </figcaption>
+        </figure>
       </div>
 
       <div>
         <h2>Audio</h2>
+        <figure>
         <audio controls>
           <source src="https://ia800404.us.archive.org/31/items/naturesounds-soundtheraphy/Relaxing%20Nature%20Sounds%20-%20Trickling%20Stream%20Sounds%20%26%20Birds.mp3" type="audio/mpeg">
           <source src="https://ia800404.us.archive.org/31/items/naturesounds-soundtheraphy/Relaxing%20Nature%20Sounds%20-%20Trickling%20Stream%20Sounds%20%26%20Birds.ogg" type="audio/ogg">
-          Your browser does not support the audio element.
         </audio>
+        <figcaption>
+          <a href="https://archive.org/details/naturesounds-soundtheraphy/">
+            Relaxing Nature Sounds - Trickling Stream Sounds & Birds
+          </a>
+          by
+          <a href="https://archive.org/details/@naturthusiast"> @naturthusiast </a>
+        </figcaption>
+      </figure>
+      </div>
+
+      <div>
+        <h2>Video</h2>
+        <figure>
+        <video width="425" autoplay loop muted>
+          <source src="https://archive.org/download/LoopableCassetteTape/Cassette%20Tape%20PhotoJPEG.mp4" type="video/mp4">
+          <source src="https://archive.org/download/LoopableCassetteTape/Cassette%20Tape%20H264-1.ogv" type="video/ogg">
+        </video>
+        <figcaption>
+          <a href="https://archive.org/details/LoopableCassetteTape">
+            Loopable Cassette Tape
+          </a>
+          by
+          <a href="https://archive.org/search?query=creator%3A%22Jeffrey+Beach+%28Beachfront+Productions%29%22"> @beachfront productions </a>
+        </figcaption>
+      </figure>
       </div>
 
     </header>
